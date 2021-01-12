@@ -14,6 +14,7 @@ class Child extends React.Component{
     // console.log('poke',poke.results);
     this.props.giveMomPoke(poke.results);
   }
+  
 
   render(){
     return (

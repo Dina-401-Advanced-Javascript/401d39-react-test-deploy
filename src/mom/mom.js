@@ -13,6 +13,7 @@ class Mom extends React.Component {
       pokemon: []
     }
   }
+  
 
   goToWork = e => {
     e.preventDefault();
