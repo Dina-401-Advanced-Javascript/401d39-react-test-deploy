@@ -74,8 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 1. install gh-pages as a dependency
 2. add two scripts into the package.json
   ```json
-  "predeploy": "npm run built",
-  "deploy": "gh-pages -d built"
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   ```
 3. Make a github repo
 4. Connect your react app to your github repo
